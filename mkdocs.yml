@@ -1,26 +1,26 @@
 site_name: Developer Tools
-
 site_url: https://rudmls.github.io/developer-tools/
+site_author: Ruddy Monlouis
 repo_url: https://github.com/rudmls/developer-tools
 
 theme:
   name: material
   language: 'fr'
   favicon: img/favicon.ico
-  feature:
-    tabs: false
+  features:
+    - navigation.top
   palette:
     - scheme: default
+      primary: teal
+      accent: yellow
       toggle:
-        primary: 'deep yellow'
-        accent: 'yellow'
-        icon: material/lightbulb-outline
+        icon: material/toggle-switch
         name: Switch to dark mode
     - scheme: slate
+      primary: black
+      accent: red
       toggle:
-        primary: 'deep yellow'
-        accent: 'yellow'
-        icon: material/lightbulb
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
 
 plugins:
