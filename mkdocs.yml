@@ -1,0 +1,54 @@
+site_name: My Docs
+
+site_url: https://rudmls.github.io/testdoc/
+repo_url: https://github.com/rudmls/testdoc
+
+
+theme:
+  name: material
+  language: 'fr'
+  favicon: img/favicon.ico
+  feature:
+    tabs: false
+  palette:
+    - scheme: default
+      toggle:
+        primary: 'deep yellow'
+        accent: 'yellow'
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        primary: 'deep yellow'
+        accent: 'yellow'
+        icon: material/lightbulb
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      toc_depth: 6
+      permalink: True
+  - codehilite
+  - attr_list # definition des attributs HTML
+  - codehilite # Gère la coloration syntaxique des différents langages
+  - admonition
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Linux: 
+    - Utils: ./pages/linux/utils.md
