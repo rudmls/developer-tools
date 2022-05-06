@@ -1,8 +1,7 @@
-site_name: My Docs
+site_name: Developer Tools
 
-site_url: https://rudmls.github.io/testdoc/
-repo_url: https://github.com/rudmls/testdoc
-
+site_url: https://rudmls.github.io/developer-tools/
+repo_url: https://github.com/rudmls/developer-tools
 
 theme:
   name: material
