@@ -5,4 +5,4 @@ markdown-include==0.6.0
 mkdocs-git-revision-date-localized-plugin==0.11.1
 pygments==2.11.2
 pymdown-extensions==9.1
-mkdocs-static-i18n==0.45
+mkdocs-static-i18n
