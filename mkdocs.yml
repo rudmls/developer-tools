@@ -18,7 +18,7 @@ theme:
         name: Switch to dark mode
     - scheme: slate
       primary: black
-      accent: red
+      accent: darkblue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
@@ -54,8 +54,16 @@ markdown_extensions:
       alternate_style: true
 
 nav:
+  - Java:
+    - Utiles : ./pages/java/utils.md
+    - Gson: ./pages/java/gson.md
+    - Agent Java: ./pages/java/java_agent.md
   - Linux: 
     - Utiles: ./pages/linux/utils.md
     - SSH: ./pages/linux/ssh.md
   - Docker:
     - Utiles: ./pages/docker/utils.md
+    - Swarm: ./pages/docker/swarm.md
+  - Hadoop: 
+    - Installer: ./pages/hadoop/install.md
+    - Script d'installation: ./pages/hadoop/install-script.md
