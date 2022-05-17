@@ -65,5 +65,4 @@ nav:
     - Utiles: ./pages/docker/utils.md
     - Swarm: ./pages/docker/swarm.md
   - Hadoop: 
-    - Installer: ./pages/hadoop/install.md
-    - Script d'installation: ./pages/hadoop/install-script.md
+    - Installation sur WSL: ./pages/hadoop/install-wsl.md
